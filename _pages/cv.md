@@ -95,7 +95,7 @@ function toggleTooltip(element) {
         <strong>Development of Data-driven Soft Monitoring Technology for Energy-saving and Environmental Protection</strong>
         <div style="font-style: italic;">Supervisor: Yang Zhang, Department of Energy and Power Engineering<span style="float: right;">Jul. 2024 - May. 2025</span></div>
         <ul>
-            <li>Developed time-series forecasting algorithms for boiler gas emission monitoring, highlighting accurate prediction near environment protection policy thresholds..</li>
+            <li>Developed time-series forecasting algorithms for boiler gas emission monitoring, highlighting accurate prediction near environment protection policy thresholds.</li>
             <li>Developed an online platform with web front-end technology to display boiler gas emission data for environmental monitoring.</li>
         </ul>
     </li>
