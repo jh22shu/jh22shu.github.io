@@ -1,0 +1,60 @@
+---
+layout: archive
+title: "PDF Viewer"
+permalink: /_pages/pdf-viewer.html
+author_profile: true
+---
+
+{% include base_path %}
+
+<style>
+    #pdfContainer {
+        width: 60vw;
+        height: 90vh;
+        position: relative;
+    }
+    #pdfFrame {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .loading {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.2em;
+        color: #666;
+    }
+    .button {
+        display: block;
+        float: left;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        }
+</style>
+
+<div id="pdfContainer">
+    <div class="loading">Loading...</div>
+    <a class="button" href="/resources/" style="text-decoration: none;">Go back</a>
+    <iframe id="pdfFrame"></iframe>
+</div>
+<script>
+    function getQueryParam(name) {
+        const params = new URLSearchParams(window.location.search);
+        return params.get(name);
+    }
+    function loadPDF() {
+        const pdfKey = getQueryParam('pdf');
+        const loadingMsg = document.querySelector('.loading');
+        const frame = document.getElementById('pdfFrame');
+        frame.onload = () => loadingMsg.style.display = 'none';
+        frame.src = pdfKey;
+    }
+    window.onload = loadPDF;
+</script>
