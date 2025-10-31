@@ -106,8 +106,8 @@ function toggleTooltip(element) {
 <h2>PUBLICATIONS</h2>
 
 <ul>
-    <li>(<a href="https://arxiv.org/abs/2502.17893" title="Arxiv preprint">Arxiv</a>, under review) <strong>Sample-efficient Diffusion-based Control of Complex Nonlinear Systems</strong><br/>Hongyi Chen, Jingtao Ding†, <strong>Jianhai Shu</strong>, Xinchun Yu, Xiaojun Liang, Yong Li, Xiao-Ping Zhang†</li>
-    <li>(Under review) <strong>PID-controlled Langevin Dynamics for Faster Sampling on Generative Models</strong><br/>Hongyi Chen*, <strong>Jianhai Shu*</strong>, Jingtao Ding†, Yong Li, Xiao-Ping Zhang†</li>
+    <li><a href="https://arxiv.org/abs/2502.17893" title="Arxiv preprint"><strong>Sample-efficient Diffusion-based Control of Complex Nonlinear Systems</strong></a> (Arxiv, under review)<br/>Hongyi Chen, Jingtao Ding†, <strong>Jianhai Shu</strong>, Xinchun Yu, Xiaojun Liang, Yong Li, Xiao-Ping Zhang†</li>
+    <li><a href="https://openreview.net/pdf/ca538d7942e9fcfe6e80d727a1f12a3ae09e34b9.pdf" title="NeurIPS2025"><strong>PID-controlled Langevin Dynamics for Faster Sampling of Generative Models</strong></a><br/>Hongyi Chen*, <strong>Jianhai Shu*</strong>, Jingtao Ding†, Yong Li, Xiao-Ping Zhang†. 2025. Advances in Neural Information Processing Systems.</li>
 </ul>
 
 
